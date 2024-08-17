@@ -1,4 +1,4 @@
-const { loadImage } = require('skia-canvas');
+const { loadImage } = require('@napi-rs/canvas');
 
 const cachedTwemojiImages = new Map();
 

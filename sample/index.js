@@ -1,5 +1,5 @@
 const express = require('express');
-const { Canvas } = require('skia-canvas');
+const { createCanvas } = require('@napi-rs/canvas');
 const base64 = require('urlsafe-base64');
 
 const wt = require('../src/index');
@@ -7,7 +7,7 @@ const wt = require('../src/index');
 const app = express();
 
 app.get('/', async (req, res) => {
-  const canvas = new Canvas(200, 500);
+  const canvas = createCanvas(200, 500);
   const context = canvas.getContext('2d');
 
   context.fillStyle = '#ffffff';

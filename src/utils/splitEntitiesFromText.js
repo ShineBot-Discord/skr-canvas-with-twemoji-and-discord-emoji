@@ -33,6 +33,8 @@ module.exports = function splitEntitiesFromText(text) {
   const textEntities = [];
 
   twemojiEntities.forEach((twemoji) => {
+    // fix domain
+    twemoji.url = twemoji.url.replace("https://twemoji.maxcdn.com/v/latest/72x72/", "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/")
     textEntities.push(
       unparsedText.slice(0, twemoji.indices[0] - lastTwemojiIndice)
     );

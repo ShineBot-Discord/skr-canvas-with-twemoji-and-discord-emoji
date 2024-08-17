@@ -1,6 +1,6 @@
-import { CanvasRenderingContext2D } from "skia-canvas";
+import { CanvasRenderingContext2D } from "@napi-rs/canvas";
 
-declare module "skia-canvas-with-twemoji-and-discord-emoji" {
+declare module "skr-canvas-with-twemoji-and-discord-emoji" {
 	export interface DrawOptions {
 		maxWidth?: number;
 		emojiSideMarginPercent?: number;

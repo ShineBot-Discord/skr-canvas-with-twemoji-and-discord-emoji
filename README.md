@@ -1,18 +1,18 @@
-# skia-canvas-with-twemoji-and-discord-emoji
+# skr-canvas-with-twemoji-and-discord-emoji
 
-A fork of node-canvas-with-twemoji for skia-canvas with Discord emoji support.
-This is a module that is able to draw emoji on skia-canvas.
+A fork of node-canvas-with-twemoji for skr-canvas with Discord emoji support.
+This is a module that is able to draw emoji on skr-canvas.
 
 ## Installation
 ```shell
-$ npm install skia-canvas-with-twemoji-and-discord-emoji
+$ npm install skr-canvas-with-twemoji-and-discord-emoji
 ```
-[npm](https://www.npmjs.com/package/skia-canvas-with-twemoji-and-discord-emoji)
+[npm](https://www.npmjs.com/package/skr-canvas-with-twemoji-and-discord-emoji)
 
 ## Quick Example
 ```javascript
-const { Canvas } = require('skia-canvas');
-const { fillTextWithTwemoji } = require('skia-canvas-with-twemoji-and-discord-emoji');
+const { Canvas } = require('skr-canvas');
+const { fillTextWithTwemoji } = require('skr-canvas-with-twemoji-and-discord-emoji');
 
 async function main () {
     const canvas = new Canvas(200, 200);
@@ -28,12 +28,12 @@ main();
 
 ## Dependencies
 
-- skia-canvas [GitHub](https://github.com/samizdatco/skia-canvas)
+- skr-canvas [GitHub](https://github.com/samizdatco/skr-canvas)
 - twemoji-parser [GitHub](https://github.com/twitter/twemoji-parser)
 
 ## License
 
-### skia-canvas-with-twemoji
+### skr-canvas-with-twemoji
 
 Copyright (c) 2020-2021 cagpie / Shun Kobayashi <cagpie@gmail.com>
 
