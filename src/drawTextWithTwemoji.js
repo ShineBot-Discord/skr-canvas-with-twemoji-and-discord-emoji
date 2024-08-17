@@ -60,7 +60,6 @@ module.exports = async function drawTextWithEmoji (
       currentWidth += context.measureText(entity).width;
     } else {
       // Emoji case
-      console.log(entity)
       const emoji = await loadTwemojiImageByUrl(entity.url);
 
       context.drawImage(
